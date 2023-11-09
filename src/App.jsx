@@ -1,8 +1,14 @@
+import { Route, Routes } from "react-router-dom"
+import { ForgetPassword, Home, Login, Otm } from "./pages/"
+
 function App() {
   return (
-    <>
-     <h1>Hello React</h1>
-    </>
+    <Routes>
+      <Route path="/login" element={<Login />} />
+      <Route path="/forget" element={<ForgetPassword />} />
+      <Route path="/otm" element={<Otm />} />
+      <Route path="/" element={<Home />} />
+    </Routes>
   )
 }
 

@@ -1,0 +1,18 @@
+.loginInput{
+  width: 100%;
+  padding: 10px;
+  background-color: #E8F1F2;
+
+  color: #00173D;
+  font-size: 18px;
+  font-weight: 500;
+
+  border: none;
+  outline: none;
+  border-radius: 15px;
+
+  &::placeholder{
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
